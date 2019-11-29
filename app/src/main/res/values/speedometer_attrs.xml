@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpeedometerView">
+        <attr name="speed" format="integer" />
+        <attr name="fill_color" format="color" />
+        <attr name="fill_gradient1" format="color" />
+        <attr name="fill_gradient2" format="color" />
+        <attr name="fill_gradient3" format="color" />
+
+    </declare-styleable>
+</resources>
