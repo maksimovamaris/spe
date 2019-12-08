@@ -4,20 +4,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.example.speed.MainActivity">
+    tools:context="com.example.speed.MainActivity"
+    >
+
+
 
     <com.example.speed.SpeedometerView
         android:id="@+id/speedometer_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/layout_margin"/>
+        android:padding="35dp"
+        android:layout_margin="@dimen/layout_margin"
+        />
 
     <SeekBar
         android:id="@+id/seek_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:max="200"
         android:layout_gravity="center"
-        android:layout_margin="@dimen/layout_margin"/>
+        android:layout_margin="@dimen/layout_margin"
+        android:max="200" />
+
 
 </FrameLayout>
