@@ -183,6 +183,7 @@ public class SpeedometerView extends View {
         TEXT1_PAINT.setColor(mFillColor[0]);
         TEXT1_PAINT.setStyle(Paint.Style.FILL);
         TEXT1_PAINT.setTextSize(2 * mFontSize / 3);
+//        for commit
 
     }
 
